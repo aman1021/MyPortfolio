@@ -9,12 +9,18 @@ const NameH1 = styled("h1")`
   margin: 100px 0px 20px 0px;
   color: #3e497a;
   font-size: 35px;
+  @media(max-width: 560px){
+    font-size: 25px;
+  }
 `;
 
 const StyledImg = styled("img")`
   width: 700px;
   border-radius: 10px;
   margin: 0px 0px 20px 0px;
+  @media(max-width: 560px){
+    width: 350px;
+  }
 `;
 
 // const Icon = styled("img")`
@@ -40,6 +46,16 @@ const Button = styled("button")`
   }
 `;
 
+const Skills = styled(Text)`
+fontSize:40px;
+color:#3e497a;
+margin:0px 0px 20px 0px;
+
+@media(max-width: 560px){
+    font-size: 25px;
+  }
+`;
+
 const LiveButton = styled(Button)`
 background: #023020;
 &:hover{
@@ -62,9 +78,9 @@ function ProjectDisplay() {
     >
       <NameH1> {project.name} </NameH1>
       <StyledImg src={project.image} />
-      <Text fontSize="40px" color="#3e497a" margin="0px 0px 20px 0px">
+      <Skills>
         <b>Skills:</b> {project.skills}{" "}
-      </Text>
+      </Skills>
       <Box display="flex">
         <a href="https://github.com/aman1021/Crypto">
           <Button>
