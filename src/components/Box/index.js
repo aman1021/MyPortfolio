@@ -10,7 +10,6 @@ import border from "@styled-system/border";
 import shadow from "@styled-system/shadow";
 import typography from "@styled-system/typography";
 
-
 const boxStyle = {
   boxSizing: "border-box",
 };

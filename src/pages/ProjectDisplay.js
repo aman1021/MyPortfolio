@@ -79,15 +79,15 @@ function ProjectDisplay() {
       <NameH1> {project.name} </NameH1>
       <StyledImg src={project.image} />
       <Skills>
-        <b>Skills:</b> {project.skills}{" "}
+        <b>Skills:</b>   {project.skills}{" "}
       </Skills>
       <Box display="flex">
-        <a href="https://github.com/aman1021/Crypto">
+        <a href={project.github}>
           <Button>
             <b>Github</b>
           </Button>
         </a>
-        <a href="https://crypto-opal-six.vercel.app/">
+        <a href={project.demo}>
           <LiveButton>
             <b>Demo</b>
           </LiveButton>

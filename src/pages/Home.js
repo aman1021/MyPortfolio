@@ -6,9 +6,6 @@ import Linkedin from "../assests/linkedin.svg"
 import Mail from '../assests/gmail.svg';
 import Git from '../assests/github.svg';
 
-
-
-
 const Icons = styled("img")`
 height: 45px;
 width: 45px;
@@ -21,6 +18,11 @@ margin: 15px;
   width 35px;
  }
 `;
+
+// const MyImage = styled(Icons)`
+// height: 300px;
+// width: 300px;
+// `
 
 const List = styled("ol")`
 list-style: none;
@@ -69,8 +71,23 @@ font-size: 60px;
 @media(max-width: 760px){
     font-size: 35px;
 }
+`;
 
-
+const Button = styled("button")`
+width: 100px;
+height: 40px;
+color: #fff;
+font-size: 14px;
+background: #00008b;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+margin: 20px 0px 0px 0px;
+padding: 5px 10px;
+&:hover {
+  background: #e9d35b;
+  color: black;
+}
 `
 
 function Home() {
@@ -87,6 +104,8 @@ function Home() {
         color="#f0f0f0"
         height="calc(100vh - 100px)"
       >
+
+        {/* <MyImage src={Picture} alt="My picture"/> */}
         <Name>Hi, My Name is Aman Chandel</Name>
         <Box width="40%" fontSize="30px">
           <About margin="16px">A software developer with a passion for learning and creating. </About>
@@ -94,6 +113,7 @@ function Home() {
           <a href="https://github.com/aman1021"><Icons src={Git}/></a>
           <a href="mailto:amaniiitu32@gmail.com"><Icons src={Mail}/></a>
         </Box>
+        <a href="https://drive.google.com/file/d/1xUfrTHhAu4ti43aWu9bh5Q1fHko9WEs8/view?usp=sharing"><Button> <b> Resume </b> </Button></a>
       </Box>
 
       <Box fontSize="35px" width="100%" display="flex" justifyContent="center" flexDirection="column" alignItems="center">
