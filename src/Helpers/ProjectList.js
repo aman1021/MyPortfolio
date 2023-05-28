@@ -1,6 +1,14 @@
 import Crypto from '../assests/crypto.png'
 import Expense from "../assests/expense.png"
+import summarizer from "../assests/summarizer.png"
 export const ProjectList = [
+    {
+        name: "AI_Summarizer Website",
+        image: summarizer,
+        skills: "Javascript, Reactjs,  Redux,  HTML, TailwindCSS",
+        github: "https://github.com/aman1021/AI-summarizer",
+        demo: "https://animated-bavarois-897b55.netlify.app/",
+    },
     {
         name: "Crypto Tracker Website",
         image: Crypto,
