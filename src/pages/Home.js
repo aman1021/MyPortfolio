@@ -113,7 +113,7 @@ function Home() {
           <a href="https://github.com/aman1021"><Icons src={Git}/></a>
           <a href="mailto:amaniiitu32@gmail.com"><Icons src={Mail}/></a>
         </Box>
-        <a href="https://drive.google.com/file/d/1VGBKgmGFcc4oWvxkk9DCM6_ELDHIefJf/view"><Button> <b> Resume </b> </Button></a>
+        <a href="https://drive.google.com/file/d/13EZYmn-QnHeHQ8pZ3V8NN-zRH-g5g2JP/view?usp=drivesdk"><Button> <b> Resume </b> </Button></a>
       </Box>
 
       <Box fontSize="35px" width="100%" display="flex" justifyContent="center" flexDirection="column" alignItems="center">

@@ -12,6 +12,8 @@ const Icons = styled("img")`
   margin: 20px;
 `;
 
+const copyRightYear = new Date().getFullYear();
+
 function Footer() {
   return (
     <Box
@@ -29,7 +31,7 @@ function Footer() {
         <a href="https://www.linkedin.com/in/amanchandel/"><Icons src={Linkedin} /></a>
         <a href="mailto:amaniiitu32@gmail.com"><Icons src={Mail}/></a>
       </Box>
-      <Text color="white" textAlign="center"> &copy; 2022</Text>
+      <Text color="white" textAlign="center"> &copy; {copyRightYear} </Text>
     </Box>
   );
 }
