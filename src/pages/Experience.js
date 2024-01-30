@@ -47,7 +47,18 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="September, 2022 - November, 2022"
+          date="June, 2022 - Aug, 2022"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<WorkIcon/>}
+        >
+          <h3 className="vertical-timeline-element-title"> Front-end developer -  Competent Groove (Full-Time)</h3>
+          <h4 className="vertical-timeline-element-subtitle">Chandigarh, India</h4>
+          <Text> Integrated several APIs and developed UI. Fixed multiple bugs which resulted in 98 % crash free users for urva.  </Text>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="September, 2022 - December, 2022"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<WorkIcon/>}
         >
