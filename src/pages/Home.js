@@ -109,11 +109,11 @@ function Home() {
         <Name>Hi, My Name is Aman Chandel</Name>
         <Box width="40%" fontSize="30px">
           <About margin="16px">A software developer with a passion for learning and creating. </About>
-          <a href="https://www.linkedin.com/in/amanchandel/"><Icons src={Linkedin}/></a>
-          <a href="https://github.com/aman1021"><Icons src={Git}/></a>
-          <a href="mailto:amaniiitu32@gmail.com"><Icons src={Mail}/></a>
+          <a target="_blank" href="https://www.linkedin.com/in/amanchandel/"><Icons src={Linkedin}/></a>
+          <a target="_blank" href="https://github.com/aman1021"><Icons src={Git}/></a>
+          <a target="_blank" href="mailto:amaniiitu32@gmail.com"><Icons src={Mail}/></a>
         </Box>
-        <a href="https://drive.google.com/file/d/13EZYmn-QnHeHQ8pZ3V8NN-zRH-g5g2JP/view?usp=drivesdk"><Button> <b> Resume </b> </Button></a>
+        <a target="_blank" href="https://drive.google.com/file/d/13EZYmn-QnHeHQ8pZ3V8NN-zRH-g5g2JP/view?usp=drivesdk"><Button> <b> Resume </b> </Button></a>
       </Box>
 
       <Box fontSize="35px" width="100%" display="flex" justifyContent="center" flexDirection="column" alignItems="center">
